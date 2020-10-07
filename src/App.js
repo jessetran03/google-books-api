@@ -32,7 +32,7 @@ class App extends Component {
 
     const searchURL = 'https://www.googleapis.com/books/v1/volumes?';
     const params = {
-      key: 'AIzaSyByrTBHbTNCJ2DvCTuJoYCbXBDBaa9FAeQ',
+      key: '---hidden---',
       q: searchTerm,
     }
     if (this.state.bookType) {
